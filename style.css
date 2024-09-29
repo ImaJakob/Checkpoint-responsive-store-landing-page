@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    /* padding-top: 5em; */
+   
+}
+
+/* header-styling */
+.hearder{
+    position: sticky;
+    top: 0;
+   width: 100%;
+   height: 5em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(251, 248, 248)
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.nav-items-1 h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-items-2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* hero styling */
+.hero-item{
+    background-image: url(./Image/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-items{
+   position: absolute;
+   top: 70%;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+
+.hero-items button{
+    background-color: white;
+    padding: 5px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hero-items h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* discount styling */
+.discount-section{
+   padding-top: 10px;
+   padding-bottom: 5px;
+}
+
+.discount{
+    font-size: xx-large;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(183, 180, 179);
+}
+
+/* card-body styling */
+.card-section{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    
+}
+
+.card-head-1{
+    text-decoration: underline;
+}
+
+.card-head-2{
+    color: rgb(59, 58, 58);
+}
+
+.card-head-2:hover{
+    text-decoration: underline;
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.card-item{
+    position: relative;
+    top: 25%;
+}
+
+.card-item button{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    margin-left: 40px;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-extention-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    position: relative;
+}
+
+.card-extention-1{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.card-extention-1 h2{
+    margin: 5px;
+}
+
+.card-extention-item{
+    position: relative;
+}
+
+.card-extention-item button{
+    position: absolute;
+    top: 2%;
+    text-align: center;
+    margin-left: 40px;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-extention-item h2{
+    font-size: 14px;
+}
+
+.card-extention-item cart-price-2{
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+.card-extention-item span{
+    color: red;
+}
+
+.card-extention-item span{
+    text-decoration: none;
+}
+
+/* footer styling */
+.footer{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+    font-size: 18px;
+}
